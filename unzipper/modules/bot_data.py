@@ -70,7 +70,7 @@ Don't go AFK next time 😉
     BANNED = """
 **Sorry you're banned 💀**
 
-Report this at @EDM115_chat if you think this is a mistake, I may unban you
+Report this if you think this is a mistake, I may unban you
     """
 
     NEW_USER_BAD = """
@@ -100,7 +100,7 @@ This may take a while, go grab a coffee ☕️
 {}
 {}
 
-**Powered by @EDM115bots**
+**Powered by Me**
     """
 
     PROCESSING = "**Processing…**"
@@ -233,7 +233,7 @@ Hi **{}** 👋, I'm **Unarchiver bot** 🥰
 I can extract any archive, with password or not, splitted, …
 Send **/commands** to learn more
 
-**Made with ❤️ by @EDM115bots**
+**Made with ❤️**
 **/donate** if you can 🥺
     """
 
@@ -260,7 +260,7 @@ Send **/commands** to learn more
 
 **• I wanna have help 🥺**
 
-    PM me at **@EDM115** or join the chat **@EDM115_chat**
+    PM me at  or join
     """
 
     ABOUT_TXT = """
@@ -268,11 +268,11 @@ Send **/commands** to learn more
 
 • **Language :** [Python 3.12.1](https://www.python.org/)
 • **Framework :** [Pyrogram 2.0.106](https://pyrogram.org/)
-• **Source code :** [EDM115/unzip-bot](https://github.com/EDM115/unzip-bot)
-• **Developer :** [EDM115](https://github.com/EDM115)
+• **Source code :** [unzip-bot](https://github.com/)
+• **Developer :** [K](https://github.com/)
 
-**[Rate me ⭐](https://t.me/BotsArchive/2705)**
-Made with ❤️ by **@EDM115bots**
+**[Rate me ⭐](https://t.me/)**
+Made with ❤️**
     """
 
     DONATE_TEXT = """
@@ -284,11 +284,11 @@ So if you can, donate :)
 It helps out a ton, covers the costs (hosting, updating, … 👨‍💻)
 
 --How ?--
-• **[Paypal](https://www.paypal.me/8EDM115)**
-• **[GitHub Sponsors](https://github.com/sponsors/EDM115)**
-• **[Directly in Telegram](https://t.me/EDM115bots/698)**
-• **[BuyMeACoffee](https://www.buymeacoffee.com/edm115)**
-• **[Send cryptos (not recommended)](https://walad.link/edm115)**
+• **[Paypal](https://www.paypal.me/)**
+• **[GitHub Sponsors](https://github.com/)**
+• **[Directly in Telegram](https://t.me/)**
+• **[BuyMeACoffee](https://www.buymeacoffee.com/)**
+• **[Send cryptos (not recommended)](https://walad.link/)**
 
 Thanks for your contribution 😊
 
