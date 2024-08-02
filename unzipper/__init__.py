@@ -2,6 +2,8 @@
 import logging
 import time
 
+import pyrogram
+
 from pyrogram import Client
 from pyromod import listen  # skipcq: PY-W2000
 
@@ -19,6 +21,9 @@ unzipperbot = Client(
     sleep_threshold=10,
     max_concurrent_transmissions=3,
 )
+
+pyrogram.utils.MIN_CHAT_ID = -999999999999
+pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
 
 logging.basicConfig(
     level=logging.INFO,
