@@ -121,7 +121,7 @@ This may take a while, go grab a coffee ☕️
 
     LOG_CHECKED = "Log channel checked"
 
-    BOT_RUNNING = "Bot is running now ! Join @EDM115bots"
+    BOT_RUNNING = "Bot is running now"
 
     WRONG_LOG = """
 Error : the provided **LOGS_CHANNEL** (`{}`) is incorrect
@@ -190,7 +190,7 @@ have been saved from the URL
 
 **⚠ IN ALL CASES ⚠**, please send **/clean**, else you can't send any other task 🙂🔫
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at if you think this is a serious error
     """
 
     HOW_MANY_UPLOADED = "`{}` file(s) have been extracted from that archive"
@@ -311,31 +311,17 @@ Here's how : Become a VIP user and benefit from extra perks !
 - Access a second bot exclusive to VIPs __(subject to conditions)__
 - And more…
 
-**What's the price ?**
-- `1$/month`
-- `10$/year`
+
 
 **How to become a VIP ?**
 1) Send **/pay** to the bot
 2) Choose your subscription
-3) Send a screenshot of your payment to **@EDM115**
+3) Send a screenshot of your payment**
 4) Enjoy your VIP perks !
 
-**What happens when my subscription ends ?**
-If you choosed GitHub Sponsors, Telegram Donate or BuyMeACoffee, you will be automatically renewed until you cancel it
-If you choosed PayPal, you will have to redo the 4 above steps
-You will be notified few days before you subscription ends so you can check if you want to renew it or not
 
-**I wanna cancel my subscription**
-Just send **/stoppay** and follow the instructions according to the platform you selected
-Your payment will be cancelled and you will keep your VIP perks until the end of your subscription
-(i.e. if you paid for 1 month, from 05/01/2024 to 05/02/2024 and you cancel your subscription on 15/01/2024, your perks will stay until 05/02/2024)
 
-**What is the referral system ?**
-Referrals have benefits for both sides :)
-- For the referrer : you get 1 month of VIP for free for each 3 new VIPs you bring
-- For the referred : you get 1 month of VIP for free if you take the monthly subscription, and 3 months for free if you take the yearly subscription
-How to input the referral code ? Just send **/pay** to the bot and follow the instructions
+
     """
 
     VIP_REQUIRED_MESSAGE = """
@@ -456,7 +442,7 @@ Do you really want to delete your thumbnail ?
 
 `{}`
 
-Please report this at @EDM115_chat if you think this is a serious error
+Please report this at  if you think this is a serious error
     """
 
     CANCELLED_TXT = "**{} ✅**"
@@ -510,7 +496,7 @@ That's not an archive 💀
 
     DEF_NOT_AN_ARCHIVE = """
 This file is NOT an archive 😐
-If you believe it's an error, send the file to **@EDM115**
+If you believe it's an error,
     """
 
     PROCESSING2 = "`Processing… ⏳`"
@@ -538,7 +524,7 @@ Use the **/merge** command
     QUERY_PARSE_ERR = """
 Fatal query parsing error 💀
 
-Please contact @EDM115_chat with details and screenshots
+Please contact with details and screenshots
     """
 
     GIVE_NEW_NAME = """
@@ -556,7 +542,7 @@ Please send the new file name (**--INCLUDE THE FILE EXTENTION !--**)
     UPLOADED = """
 **Successfully uploaded ✅**
 
-**Join @EDM115bots ❤️**
+**Join  ❤️**
     """
 
     NO_FILE_LEFT = "There's no file left to upload"
@@ -670,12 +656,12 @@ It failed 😣 Retry
 If it fails again, it means that {} haven't started the bot yet (or deleted the chat), or he's private/banned/whatever
     """
 
-    REPORT_REPLY = "Reply to a message to report it to @EDM115"
+    REPORT_REPLY = "Reply to a message"
 
     REPORT_DONE = """
 Report sucessfully sent ! An answer will arrive soon
 
-Note : if you need to reply to replies, always use that /report command (or join **@EDM115_chat**)
+Note : if you need to reply to replies, always use that /report command 
     """
 
     BAN_ID = "Give an user id to ban 😈"
@@ -815,7 +801,7 @@ Here's all the commands that only the owner (you) can use :
 **/maintenance** : Put the bot in or out of maintenance mode. No tasks can be processed while on
 **/cleanall** : Same as `/clean`, but for the whole server
 **/cleantasks** : Same as `/cleanall`, plus removes them from the database
-**/logs** : Send you the logs (all of them). Useful for bug tracking. Send them to **@EDM115** if you don't understand them/need help
+**/logs** : Send you the logs (all of them). Useful for bug tracking.
 **/restart** : Does a basic restart, less intrusive as the `/redbutton` one
 **/dbexport** : ~~Exports the whole database as CSV~~ __Does nothing yet__
 **/eval {code}** : Evaluate a piece of code. Useful for debugging
